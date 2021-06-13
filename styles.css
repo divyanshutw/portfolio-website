@@ -897,6 +897,12 @@ a{
 }
 
 @media screen and (max-width: 468px) {
+
+  .yellow__bar_resume:hover{
+  transform: none;
+  transition-duration: 0s;
+  }
+
   .por__container {
     padding-top: 100px;
     padding-bottom: 160px;
@@ -1169,6 +1175,10 @@ a{
   .footer__right {
     padding: 0 16px;
   }
+}
+.contact__bar:hover{
+  transform: none;
+  transition-duration: 0s;
 }
 
 .social__content {
